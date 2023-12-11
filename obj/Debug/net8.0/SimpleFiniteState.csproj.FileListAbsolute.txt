@@ -1,0 +1,14 @@
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.AssemblyInfoInputs.cache
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.AssemblyInfo.cs
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\bin\Debug\net8.0\SimpleFiniteState.exe
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\bin\Debug\net8.0\SimpleFiniteState.deps.json
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\bin\Debug\net8.0\SimpleFiniteState.runtimeconfig.json
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\bin\Debug\net8.0\SimpleFiniteState.dll
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\bin\Debug\net8.0\SimpleFiniteState.pdb
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.dll
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\refint\SimpleFiniteState.dll
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.pdb
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.genruntimeconfig.cache
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\ref\SimpleFiniteState.dll
