@@ -6,10 +6,15 @@ class Program
     {
         SimpleFiniteState fsm = new SimpleFiniteState();
         fsm.ProcessEvent(SimpleFiniteState.Events.OnGuard);
+        Console.WriteLine("Current state: " + fsm.State);
         fsm.ProcessEvent(SimpleFiniteState.Events.AlertGuard);
+        Console.WriteLine("Current state: " + fsm.State);
         fsm.ProcessEvent(SimpleFiniteState.Events.BraveGuard);
+        Console.WriteLine("Current state: " + fsm.State);
         fsm.ProcessEvent(SimpleFiniteState.Events.Scared);
+        Console.WriteLine("Current state: " + fsm.State);
         fsm.ProcessEvent(SimpleFiniteState.Events.DeadGuard);
+        Console.WriteLine("Current state: " + fsm.State);
     }
     class SimpleFiniteState
     {
