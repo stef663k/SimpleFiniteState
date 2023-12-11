@@ -6,17 +6,17 @@ class Program
     {
         SimpleFiniteState fsm = new SimpleFiniteState();
         fsm.ProcessEvent(SimpleFiniteState.Events.OnGuard);
-        fsm.ProcessEvent(SimpleFiniteState.Events.BraveGuard);
         fsm.ProcessEvent(SimpleFiniteState.Events.AlertGuard);
+        fsm.ProcessEvent(SimpleFiniteState.Events.BraveGuard);
         fsm.ProcessEvent(SimpleFiniteState.Events.Scared);
         fsm.ProcessEvent(SimpleFiniteState.Events.DeadGuard);
     }
     class SimpleFiniteState
     {
         //Gyldige tilstande
-        public enum States { Guarding, Chasing, Dead, Fleeing, Combat };
+        public enum States { Guarding, Chasing, Combat, Fleeing, Dead };
         //Input / begivenheder
-        public enum Events { OnGuard, Scared, BraveGuard, AlertGuard, DeadGuard };
+        public enum Events { OnGuard, AlertGuard, BraveGuard, Scared, DeadGuard };
         public States State { get; private set; }
 
 
@@ -26,12 +26,12 @@ class Program
         {
             //Tabel over Gyldige tilstandsskift
             fsm = new Action[5, 5] {
-            //OnGuard,          Scared,                 BraveGuard,            AlertGuard,    DeadGuard
-            {GuadringEntity,     null,                     null,               SeesPlayer,       null},              
-            {null,               FleeingPlayer,            CombatPlayer,       null,             DeadPlayer },    
-            {null,               null,                     CombatPlayer,       SeesPlayer,       DeadPlayer },
-            {null,               null,                     CombatPlayer,       SeesPlayer,       DeadPlayer },
-            {null,               null,                     null,               null,             DeadPlayer }
+            //OnGuard,          AlertGuard,                BraveGuard,         Scared,          DeadGuard
+            {GuadringEntity,     SeesPlayer,               null,               null,             null},              
+            {null,               SeesPlayer,               CombatPlayer,       null,             DeadPlayer },    
+            {null,               FleeingPlayer,            CombatPlayer,       SeesPlayer,       DeadPlayer },
+            {null,               null,                     CombatPlayer,       FleeingPlayer,    DeadPlayer },
+            {null,               SeesPlayer,               CombatPlayer,       FleeingPlayer,    DeadPlayer }
             };  
         }
         public void ProcessEvent(Events theEvent)

@@ -12,3 +12,4 @@ C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\refint\Sim
 C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.pdb
 C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.genruntimeconfig.cache
 C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\ref\SimpleFiniteState.dll
+C:\Users\Stefan\Desktop\GameDesign\SimpleFiniteState\obj\Debug\net8.0\SimpleFiniteState.sourcelink.json
